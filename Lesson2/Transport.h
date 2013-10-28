@@ -12,7 +12,13 @@
 
 @interface Transport : NSObject
 
+
+@property (strong,nonatomic) NSString *Name;  // создаем свойство Name  ? тип данных - указатель на NSstring (если описываем в .h то публичное елсив .m то приватные)
+
 -(void)start; // метод класса
 -(void)stop;
 
+
+
 @end
+
