@@ -14,8 +14,8 @@
 +(Vehicle *)transportName:(NSString *)Name andVehiclePrice:(NSNumber *)Price{
 
     Vehicle* vehicle1 = [[Vehicle alloc] init];
-    vehicle1.Name = @"qwe";
-    vehicle1.Price = @12;
+    vehicle1.Name = Name;
+    vehicle1.Price = Price;
     
     return vehicle1;
 }
